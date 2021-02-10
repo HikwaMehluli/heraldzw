@@ -39,7 +39,11 @@ const Container = styled.div`
 
 const StyledImage = styled(Image)`
 	display: block;
-	height: 100%;
+	// height: 100%;
+	// width: 100%;
+	// object-fit: cover;
+
 	width: 100%;
-	object-fit: cover;
+	max-width: 848px;
+	height: auto;
 `;
