@@ -1,5 +1,5 @@
 import React from "react";
-// import "../styles/darkmode.css";
+import "../styles/darkmode.css";
 
 export const DarkMode = () => {
     let clickedClass = "clicked";

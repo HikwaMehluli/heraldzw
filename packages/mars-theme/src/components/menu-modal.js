@@ -1,7 +1,7 @@
 import { styled, connect } from "frontity";
 import Link from "./link";
 // import DarkMode from "./components/darkmode";
-import DarkMode from "./darkmode";
+// import DarkMode from "./darkmode";
 
 const MenuModal = ({ state }) => {
 	const { menu } = state.theme;
@@ -11,7 +11,7 @@ const MenuModal = ({ state }) => {
 		<>
 			<MenuOverlay />
 
-			<DarkMode/>
+			{/* <DarkMode/> */}
 			
 			<MenuContent as="nav">
 				{isThereLinks &&
