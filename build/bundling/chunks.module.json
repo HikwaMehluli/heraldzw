@@ -1,0 +1,162 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "52680a7e86e75b0d02fd",
+  "publicPath": "/static/",
+  "outputPath": "C:\\xampp\\htdocs\\theHearld\\theHearld\\build\\static",
+  "assetsByChunkName": {
+    "list": "list.module.js",
+    "thehearld": [
+      "thehearld.module.js",
+      "thehearld.13d3048ba4651b346a97.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "13d3048ba4651b346a97.hot-update.json",
+      "size": 51,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 48678,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "thehearld.13d3048ba4651b346a97.hot-update.js",
+      "size": 10495,
+      "chunks": [
+        "thehearld"
+      ],
+      "chunkNames": [
+        "thehearld"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "thehearld.module.js",
+      "size": 6505520,
+      "chunks": [
+        "thehearld"
+      ],
+      "chunkNames": [
+        "thehearld"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "thehearld": {
+      "chunks": [
+        "thehearld"
+      ],
+      "assets": [
+        "thehearld.module.js",
+        "thehearld.13d3048ba4651b346a97.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "thehearld": {
+      "chunks": [
+        "thehearld"
+      ],
+      "assets": [
+        "thehearld.module.js",
+        "thehearld.13d3048ba4651b346a97.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "list",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "size": 31386,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.module.js"
+      ],
+      "hash": "c217fe21cc091a91aeb8",
+      "siblings": [],
+      "parents": [
+        "thehearld"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "thehearld",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1674155,
+      "names": [
+        "thehearld"
+      ],
+      "files": [
+        "thehearld.module.js",
+        "thehearld.13d3048ba4651b346a97.hot-update.js"
+      ],
+      "hash": "ac12607c550945713ef1",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
