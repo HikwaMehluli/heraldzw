@@ -2,19 +2,19 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "52680a7e86e75b0d02fd",
+  "hash": "5e2713e671887950fc9c",
   "publicPath": "/static/",
   "outputPath": "C:\\xampp\\htdocs\\theHearld\\theHearld\\build\\static",
   "assetsByChunkName": {
     "list": "list.module.js",
     "thehearld": [
       "thehearld.module.js",
-      "thehearld.13d3048ba4651b346a97.hot-update.js"
+      "thehearld.52680a7e86e75b0d02fd.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "13d3048ba4651b346a97.hot-update.json",
+      "name": "52680a7e86e75b0d02fd.hot-update.json",
       "size": 51,
       "chunks": [],
       "chunkNames": [],
@@ -37,8 +37,8 @@
       "emitted": false
     },
     {
-      "name": "thehearld.13d3048ba4651b346a97.hot-update.js",
-      "size": 10495,
+      "name": "thehearld.52680a7e86e75b0d02fd.hot-update.js",
+      "size": 8600,
       "chunks": [
         "thehearld"
       ],
@@ -53,7 +53,7 @@
     },
     {
       "name": "thehearld.module.js",
-      "size": 6505520,
+      "size": 6505535,
       "chunks": [
         "thehearld"
       ],
@@ -72,7 +72,7 @@
       ],
       "assets": [
         "thehearld.module.js",
-        "thehearld.13d3048ba4651b346a97.hot-update.js"
+        "thehearld.52680a7e86e75b0d02fd.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -85,7 +85,7 @@
       ],
       "assets": [
         "thehearld.module.js",
-        "thehearld.13d3048ba4651b346a97.hot-update.js"
+        "thehearld.52680a7e86e75b0d02fd.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -130,15 +130,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1674155,
+      "size": 1674166,
       "names": [
         "thehearld"
       ],
       "files": [
         "thehearld.module.js",
-        "thehearld.13d3048ba4651b346a97.hot-update.js"
+        "thehearld.52680a7e86e75b0d02fd.hot-update.js"
       ],
-      "hash": "ac12607c550945713ef1",
+      "hash": "381f1d4e6dd1b2d45ea3",
       "siblings": [],
       "parents": [],
       "children": [
