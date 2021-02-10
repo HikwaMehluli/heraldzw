@@ -51,58 +51,29 @@ export default connect(Theme);
 
 const globalStyles = css`
 
+	// :root {
+	// 	--black: black;
+	// 	--white: #fafafa;
+	// 	--red: #F51827;
+	// 	--grey: #f3f3f3;
+	// 	--dark-grey: #20232a;
+	// 	--transition: all .5s;
+	// }
+
 	:root {
-		--black: black;
-		--white: #fafafa;
+		--black: #fafafa;
+		--white: black;
 		--red: #F51827;
 		--grey: #f3f3f3;
+		--dark-grey: #20232a;
 		--transition: all .5s;
 	}
-
-	// body.light {
-	// 	:root {
-	// 		--black: black;
-	// 		--white: #fafafa;
-	// 		--red: #F51827;
-	// 		--grey: #f3f3f3;
-	// 		--transition: all .5s;
-	// 	}
-	// }
-
-	// body.dark {
-	// 	:root {
-	// 		--black: #fafafa;
-	// 		--white: black;
-	// 		--red: #F51827;
-	// 		--grey: #f3f3f3;
-	// 		--transition: all .5s;
-	// 	}
-	// }
-
-	// @media (prefers-color-scheme: light) {
-	// 	:root {
-	// 		--black: black;
-	// 		--white: #fafafa;
-	// 		--red: #F51827;
-	// 		--grey: #f3f3f3;
-	// 		--transition: all .5s;
-	// 	}
-	// }
-
-	// @media (prefers-color-scheme: dark) {
-	// 	:root {
-	// 		--black: #fafafa;
-	// 		--white: black;
-	// 		--red: #F51827;
-	// 		--grey: #f3f3f3;
-	// 		--transition: all .5s;
-	// 	}
-	// }
 
 	body {
 		margin: 0;
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		background-color: var(--white);
+		// background-color: var(--white);
+		background-color: var(--dark-grey);
 	}
 
 	a,
@@ -116,14 +87,15 @@ const HeadContainer = styled.div`
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	background-color: var(--grey);
+	// background-color: var(--grey);
+	background-color: var(--white);
 `;
 
 const Main = styled.div`
 	display: flex;
 	justify-content: center;
-	background-color: var(--white);
+	// background-color: var(--white);
+	background-color: var(--dark-grey);
 `;
-
 
 console.log("The Hearld - NewsApp");

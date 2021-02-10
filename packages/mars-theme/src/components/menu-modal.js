@@ -1,7 +1,5 @@
 import { styled, connect } from "frontity";
 import Link from "./link";
-// import DarkMode from "./components/darkmode";
-// import DarkMode from "./darkmode";
 
 const MenuModal = ({ state }) => {
 	const { menu } = state.theme;
@@ -10,9 +8,6 @@ const MenuModal = ({ state }) => {
 	return (
 		<>
 			<MenuOverlay />
-
-			{/* <DarkMode/> */}
-			
 			<MenuContent as="nav">
 				{isThereLinks &&
 					menu.map(([name, link]) => (
@@ -63,21 +58,5 @@ const MenuLink = styled(Link)`
 		font-weight: bold;
 	}
 `;
-
-
-
-// export const DarkToggle = () => {
-// 	const systemPrefersDark = useMediaQuery(
-// 		{
-// 			query: "(prefers-color-scheme: dark)"
-// 		},
-// 		undefined,
-// 		prefersDark => {
-// 			setIsDark(prefersDark);
-// 		}
-// 	);
-
-// 	const [isDark, setIsDark] = useState(systemPrefersDark);
-// };
 
 export default connect(MenuModal);

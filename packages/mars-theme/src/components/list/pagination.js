@@ -46,7 +46,8 @@ export default connect(Pagination);
 
 const Text = styled.em`
 	background-color: var(--red);
-	color: var(--white);
+	// color: var(--white);
+	color: var(--black);
 	cursor: pointer;
 	display: inline-block;
 	font-weight: 400;

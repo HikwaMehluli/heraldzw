@@ -71,10 +71,11 @@ const Container = styled.div`
 `;
 
 const Title = styled.h1`
+	color: var(--red);
+	font-size: 1.5rem;
 	margin: 0;
 	margin-top: 24px;
 	margin-bottom: 8px;
-	color: var(--red);
 `;
 
 const StyledLink = styled(Link)`
