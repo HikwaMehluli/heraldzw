@@ -6,11 +6,9 @@ import Post from "./post";
 import Loading from "./loading";
 import Title from "./title";
 import PageError from "./page-error";
-import Darkmode from "./darkmode";
 
 /**
- * Theme is the root React component of our theme. The one we will export
- * in roots.
+ * Theme is the root React component of our theme. The one we will export in roots.
  */
 const Theme = ({ state }) => {
 	// Get information about the current URL.

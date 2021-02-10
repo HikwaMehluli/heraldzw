@@ -1,22 +1,20 @@
 {
-  "errors": [
-    "./packages/mars-theme/src/components/darkmode.js\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\xampp\\htdocs\\theHearld\\theHearld\\packages\\mars-theme\\src\\components\\darkmode.js'\n @ ./packages/mars-theme/src/components/index.js 1:600-633\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts"
-  ],
+  "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "7e55bc031d74a7e0e0e4",
+  "hash": "dbe454801990abff734f",
   "publicPath": "/static/",
   "outputPath": "C:\\xampp\\htdocs\\theHearld\\theHearld\\build\\static",
   "assetsByChunkName": {
     "list": "list.module.js",
     "thehearld": [
       "thehearld.module.js",
-      "thehearld.43f7caf9068b3d85783d.hot-update.js"
+      "thehearld.7e55bc031d74a7e0e0e4.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "43f7caf9068b3d85783d.hot-update.json",
+      "name": "7e55bc031d74a7e0e0e4.hot-update.json",
       "size": 51,
       "chunks": [],
       "chunkNames": [],
@@ -39,8 +37,8 @@
       "emitted": false
     },
     {
-      "name": "thehearld.43f7caf9068b3d85783d.hot-update.js",
-      "size": 21032,
+      "name": "thehearld.7e55bc031d74a7e0e0e4.hot-update.js",
+      "size": 22875,
       "chunks": [
         "thehearld"
       ],
@@ -55,7 +53,7 @@
     },
     {
       "name": "thehearld.module.js",
-      "size": 6568330,
+      "size": 6566993,
       "chunks": [
         "thehearld"
       ],
@@ -74,7 +72,7 @@
       ],
       "assets": [
         "thehearld.module.js",
-        "thehearld.43f7caf9068b3d85783d.hot-update.js"
+        "thehearld.7e55bc031d74a7e0e0e4.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -87,7 +85,7 @@
       ],
       "assets": [
         "thehearld.module.js",
-        "thehearld.43f7caf9068b3d85783d.hot-update.js"
+        "thehearld.7e55bc031d74a7e0e0e4.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -132,15 +130,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1691022,
+      "size": 1690588,
       "names": [
         "thehearld"
       ],
       "files": [
         "thehearld.module.js",
-        "thehearld.43f7caf9068b3d85783d.hot-update.js"
+        "thehearld.7e55bc031d74a7e0e0e4.hot-update.js"
       ],
-      "hash": "c74da3e2e09076ba430d",
+      "hash": "76da06e6387b6ea104e6",
       "siblings": [],
       "parents": [],
       "children": [
