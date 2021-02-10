@@ -6,6 +6,7 @@ import Post from "./post";
 import Loading from "./loading";
 import Title from "./title";
 import PageError from "./page-error";
+import Darkmode from "./darkmode";
 
 /**
  * Theme is the root React component of our theme. The one we will export
@@ -51,13 +52,25 @@ const Theme = ({ state }) => {
 export default connect(Theme);
 
 const globalStyles = css`
-	:root {
-		--black: black;
-		--white: #fafafa;
-		--red: #F51827;
-		--grey: #f6f6f6;
-		--transition: all .5s;
-	}
+	// @media (prefers-color-scheme: light) {
+		:root {
+			--black: black;
+			--white: #fafafa;
+			--red: #F51827;
+			--grey: #f6f6f6;
+			--transition: all .5s;
+		}
+	// }
+
+	// @media (prefers-color-scheme: dark) {
+	// 	:root {
+	// 		--black: #fafafa;
+	// 		--white: black;
+	// 		--red: #F51827;
+	// 		--grey: #f6f6f6;
+	// 		--transition: all .5s;
+	// 	}
+	// }
 
 	body {
 		margin: 0;
@@ -84,3 +97,6 @@ const Main = styled.div`
 	justify-content: center;
 	background-color: var(--white);
 `;
+
+
+console.log("The Hearld - NewsApp");

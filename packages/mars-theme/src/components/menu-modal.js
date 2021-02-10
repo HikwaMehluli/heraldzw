@@ -1,6 +1,9 @@
 import { styled, connect } from "frontity";
 import Link from "./link";
 
+import React, { useState } from "react";
+import Toggle from "react-toggle";
+
 const MenuModal = ({ state }) => {
 	const { menu } = state.theme;
 	const isThereLinks = menu != null && menu.length > 0;
@@ -8,6 +11,17 @@ const MenuModal = ({ state }) => {
 	return (
 		<>
 			<MenuOverlay />
+			
+			<DarkModeSwitch>
+				
+				{/* <div class="dark_mode_container">
+					<label class="dark_mode_switch" for="checkbox">
+						<input type="checkbox" id="checkbox" />
+						<div class="slider round"></div>
+					</label>
+				</div> */}
+			</DarkModeSwitch>
+
 			<MenuContent as="nav">
 				{isThereLinks &&
 					menu.map(([name, link]) => (
@@ -58,5 +72,23 @@ const MenuLink = styled(Link)`
 		font-weight: bold;
 	}
 `;
+
+/***************************************************
+    Create A Dark/Light Mode Switch with CSS Variables
+    Source: https://dev.to/nw/adding-dark-mode-to-your-react-app-with-hooks-media-queries-and-css-variables-50h0
+***************************************************/
+// export const DarkToggle = () => {
+//     const [isDark, setIsDark] = useState(true);
+
+//     return (
+//         <Toggle
+//             className="DarkToggle"
+//             checked={isDark}
+//             onChange={event => setIsDark(event.target.checked)}
+//             icons={{ checked: "🌙", unchecked: "🔆" }}
+//             aria-label="Dark mode"
+//         />
+//     );
+// };
 
 export default connect(MenuModal);
