@@ -50,7 +50,7 @@ const Theme = ({ state }) => {
 export default connect(Theme);
 
 const globalStyles = css`
-	// @media (prefers-color-scheme: light) {
+	body.light {
 		:root {
 			--black: black;
 			--white: #fafafa;
@@ -58,6 +58,26 @@ const globalStyles = css`
 			--grey: #f6f6f6;
 			--transition: all .5s;
 		}
+	}
+
+	body.dark {
+		:root {
+			--black: #fafafa;
+			--white: black;
+			--red: #F51827;
+			--grey: #f6f6f6;
+			--transition: all .5s;
+		}
+	}
+
+	// @media (prefers-color-scheme: light) {
+	// 	:root {
+	// 		--black: black;
+	// 		--white: #fafafa;
+	// 		--red: #F51827;
+	// 		--grey: #f6f6f6;
+	// 		--transition: all .5s;
+	// 	}
 	// }
 
 	// @media (prefers-color-scheme: dark) {
