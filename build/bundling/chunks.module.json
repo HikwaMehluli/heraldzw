@@ -2,19 +2,19 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "dbe454801990abff734f",
+  "hash": "1f17908ac2b74349423a",
   "publicPath": "/static/",
   "outputPath": "C:\\xampp\\htdocs\\theHearld\\theHearld\\build\\static",
   "assetsByChunkName": {
     "list": "list.module.js",
     "thehearld": [
       "thehearld.module.js",
-      "thehearld.7e55bc031d74a7e0e0e4.hot-update.js"
+      "thehearld.4eea2a76c6a167f1e106.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "7e55bc031d74a7e0e0e4.hot-update.json",
+      "name": "4eea2a76c6a167f1e106.hot-update.json",
       "size": 51,
       "chunks": [],
       "chunkNames": [],
@@ -34,11 +34,11 @@
         "list"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true
     },
     {
-      "name": "thehearld.7e55bc031d74a7e0e0e4.hot-update.js",
-      "size": 22875,
+      "name": "thehearld.4eea2a76c6a167f1e106.hot-update.js",
+      "size": 24189,
       "chunks": [
         "thehearld"
       ],
@@ -53,7 +53,7 @@
     },
     {
       "name": "thehearld.module.js",
-      "size": 6566993,
+      "size": 6570076,
       "chunks": [
         "thehearld"
       ],
@@ -72,7 +72,7 @@
       ],
       "assets": [
         "thehearld.module.js",
-        "thehearld.7e55bc031d74a7e0e0e4.hot-update.js"
+        "thehearld.4eea2a76c6a167f1e106.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -85,7 +85,7 @@
       ],
       "assets": [
         "thehearld.module.js",
-        "thehearld.7e55bc031d74a7e0e0e4.hot-update.js"
+        "thehearld.4eea2a76c6a167f1e106.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -130,15 +130,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1690588,
+      "size": 1692101,
       "names": [
         "thehearld"
       ],
       "files": [
         "thehearld.module.js",
-        "thehearld.7e55bc031d74a7e0e0e4.hot-update.js"
+        "thehearld.4eea2a76c6a167f1e106.hot-update.js"
       ],
-      "hash": "76da06e6387b6ea104e6",
+      "hash": "de4b99952b12317d2ef6",
       "siblings": [],
       "parents": [],
       "children": [
