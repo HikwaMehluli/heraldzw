@@ -50,32 +50,41 @@ const Theme = ({ state }) => {
 export default connect(Theme);
 
 const globalStyles = css`
-	body.light {
-		:root {
-			--black: black;
-			--white: #fafafa;
-			--red: #F51827;
-			--grey: #f6f6f6;
-			--transition: all .5s;
-		}
+
+	:root {
+		--black: black;
+		--white: #fafafa;
+		--red: #F51827;
+		--grey: #f3f3f3;
+		--transition: all .5s;
 	}
 
-	body.dark {
-		:root {
-			--black: #fafafa;
-			--white: black;
-			--red: #F51827;
-			--grey: #f6f6f6;
-			--transition: all .5s;
-		}
-	}
+	// body.light {
+	// 	:root {
+	// 		--black: black;
+	// 		--white: #fafafa;
+	// 		--red: #F51827;
+	// 		--grey: #f3f3f3;
+	// 		--transition: all .5s;
+	// 	}
+	// }
+
+	// body.dark {
+	// 	:root {
+	// 		--black: #fafafa;
+	// 		--white: black;
+	// 		--red: #F51827;
+	// 		--grey: #f3f3f3;
+	// 		--transition: all .5s;
+	// 	}
+	// }
 
 	// @media (prefers-color-scheme: light) {
 	// 	:root {
 	// 		--black: black;
 	// 		--white: #fafafa;
 	// 		--red: #F51827;
-	// 		--grey: #f6f6f6;
+	// 		--grey: #f3f3f3;
 	// 		--transition: all .5s;
 	// 	}
 	// }
@@ -85,7 +94,7 @@ const globalStyles = css`
 	// 		--black: #fafafa;
 	// 		--white: black;
 	// 		--red: #F51827;
-	// 		--grey: #f6f6f6;
+	// 		--grey: #f3f3f3;
 	// 		--transition: all .5s;
 	// 	}
 	// }
