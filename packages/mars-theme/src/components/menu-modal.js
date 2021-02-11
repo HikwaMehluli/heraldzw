@@ -41,6 +41,8 @@ const MenuContent = styled.div`
 
 const MenuLink = styled(Link)`
 	width: 100%;
+        // color: var(--white);
+        color: var(--black);
 	display: inline-block;
 	outline: 0;
 	font-size: 20px;
@@ -50,6 +52,7 @@ const MenuLink = styled(Link)`
 	&:hover,
 	&:focus {
 		background-color: var(--red);
+                color: var(--black);
 	}
 
 	/* styles for active link */
