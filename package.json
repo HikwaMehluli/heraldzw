@@ -13,8 +13,7 @@
   "scripts": {
     "dev": "frontity dev",
     "build": "frontity build",
-    "serve": "frontity serve",
-    "npm-update": "update"
+    "serve": "frontity serve"
   },
   "prettier": {},
   "dependencies": {
