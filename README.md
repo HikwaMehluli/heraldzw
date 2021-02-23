@@ -5,9 +5,8 @@ This project is a proof of concept of a fast loading website app bootstrapped wi
 #### Why I Created it?
 
 - Experiment with JAMstack tech.
-- Read the news without the boated advertisements for self
-- Pontencially being brought in to develop modern News apps for Zimbabweas Press and Africa.
-- ...flexing!
+- Read the news without the bloated advertisements.
+- Potentially being asked or involved in the development of a more modern news apps across Africa.
 
 #### Back to the World
 
