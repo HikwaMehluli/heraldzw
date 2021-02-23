@@ -1,0 +1,134 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "fd97bfb2eff198a2847b",
+  "publicPath": "/static/",
+  "outputPath": "C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\build\\static",
+  "assetsByChunkName": {
+    "list": "list.es5.5942c7b156dc0a8f7fb4.js",
+    "thehearld": "thehearld.es5.22ad1658fa0c13809dff.js"
+  },
+  "assets": [
+    {
+      "name": "list.es5.5942c7b156dc0a8f7fb4.js",
+      "size": 3030,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "thehearld.es5.22ad1658fa0c13809dff.js",
+      "size": 461685,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "thehearld"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "thehearld": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "thehearld.es5.22ad1658fa0c13809dff.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "thehearld": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "thehearld.es5.22ad1658fa0c13809dff.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "list.es5.5942c7b156dc0a8f7fb4.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 33546,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.es5.5942c7b156dc0a8f7fb4.js"
+      ],
+      "hash": "5942c7b156dc0a8f7fb4",
+      "siblings": [],
+      "parents": [
+        1
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1062246,
+      "names": [
+        "thehearld"
+      ],
+      "files": [
+        "thehearld.es5.22ad1658fa0c13809dff.js"
+      ],
+      "hash": "22ad1658fa0c13809dff",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        0
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
