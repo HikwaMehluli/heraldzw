@@ -33,7 +33,8 @@ const settings = {
 			"name": "@frontity/wp-source",
 			"state": {
 				"source": {
-					"url": "https://www.herald.co.zw"
+					// "url": "https://www.herald.co.zw"
+					"url": "https://dailynews.co.zw/"
 				}
 			}
 		},
