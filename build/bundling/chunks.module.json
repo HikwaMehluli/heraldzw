@@ -1,52 +1,15 @@
 {
-  "errors": [
-    "./node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.browser.esm.js\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\@emotion\\react\\jsx-runtime\\dist\\emotion-react-jsx-runtime.browser.esm.js'\n @ ./packages/mars-theme/src/components/index.js 3:3-55 3:55-109 3:109-171 4:54-59 4:60-69 4:81-85 4:96-101 4:118-122 4:187-191 4:215-219 4:250-254 4:279-283 4:297-301 4:317-322 4:341-345 4:378-382 4:411-415 4:445-449\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/@frontity/components/image.tsx\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\@frontity\\components\\image.tsx'\n @ ./packages/mars-theme/src/components/featured-media.js 1:357-403 3:2719-2724\n @ ./packages/mars-theme/src/components/post.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/@frontity/components/link/index.tsx\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\@frontity\\components\\link\\index.tsx'\n @ ./packages/mars-theme/src/components/link.js 1:1776-1820 16:99-103\n @ ./packages/mars-theme/src/components/header.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/@frontity/components/switch.tsx\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\@frontity\\components\\switch.tsx'\n @ ./packages/mars-theme/src/components/index.js 1:379-427 4:323-329\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/@frontity/core/src/client/index.tsx\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\@frontity\\core\\src\\client\\index.tsx'\n @ ./build/bundling/entry-points/thehearld/client.ts 1:0-46 1:606-612 1:643-1554 1:865-1553 1:883-919\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/@frontity/google-analytics/src/index.ts\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\@frontity\\google-analytics\\src\\index.ts'\n @ ./build/bundling/entry-points/thehearld/client.ts 1:190-275 1:496-530 1:643-1554 1:865-1553 1:1137-1184\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/@frontity/html2react/processors/iframe.tsx\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\@frontity\\html2react\\processors\\iframe.tsx'\n @ ./packages/mars-theme/src/index.js 1:89-148 14:27-33\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/@frontity/html2react/processors/image.tsx\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\@frontity\\html2react\\processors\\image.tsx'\n @ ./packages/mars-theme/src/index.js 1:32-89 14:21-26\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/@frontity/html2react/processors/link.tsx\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\@frontity\\html2react\\processors\\link.tsx'\n @ ./packages/mars-theme/src/index.js 1:148-203 14:34-38\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/@frontity/html2react/src/index.ts\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\@frontity\\html2react\\src\\index.ts'\n @ ./build/bundling/entry-points/thehearld/client.ts 1:350-423 1:561-589 1:643-1554 1:865-1553 1:1315-1356\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/@frontity/tiny-router/src/index.ts\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\@frontity\\tiny-router\\src\\index.ts'\n @ ./build/bundling/entry-points/thehearld/client.ts 1:275-350 1:531-560 1:643-1554 1:865-1553 1:1229-1271\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/@frontity/wp-source/src/index.ts\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\@frontity\\wp-source\\src\\index.ts'\n @ ./build/bundling/entry-points/thehearld/client.ts 1:119-190 1:468-495 1:643-1554 1:865-1553 1:1047-1087\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/frontity/dist/src/index.js\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\frontity\\dist\\src\\index.js'\n @ ./packages/mars-theme/src/components/index.js 1:326-379 4:102-106 4:220-226 4:506-513 4:5562-5568 4:10162-10168\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/react/index.js\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\react\\index.js'\n @ ./packages/mars-theme/src/components/post.js 1:277-306 8:3-12\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/core-js/modules/es.array.index-of.js\nModule build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\core-js\\modules\\es.array.index-of.js'\n @ ./packages/mars-theme/src/components/link.js 1:0-45\n @ ./packages/mars-theme/src/components/header.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/core-js/modules/es.array.iterator.js\nModule build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\core-js\\modules\\es.array.iterator.js'\n @ ./packages/mars-theme/src/components/nav.js 1:0-45\n @ ./packages/mars-theme/src/components/header.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/core-js/modules/es.array.reduce.js\nModule build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\core-js\\modules\\es.array.reduce.js'\n @ ./packages/mars-theme/src/components/featured-media.js 1:0-43\n @ ./packages/mars-theme/src/components/post.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/core-js/modules/es.array.slice.js\nModule build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\core-js\\modules\\es.array.slice.js'\n @ ./packages/mars-theme/src/components/title.js 1:0-42\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/core-js/modules/es.promise.js\nModule build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\core-js\\modules\\es.promise.js'\n @ ./packages/mars-theme/src/components/list/index.js 1:0-38\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/core-js/modules/es.symbol.description.js\nModule build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\core-js\\modules\\es.symbol.description.js'\n @ ./packages/mars-theme/src/components/index.js 1:0-49\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "./node_modules/core-js/modules/web.dom-collections.iterator.js\nModule build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\core-js\\modules\\web.dom-collections.iterator.js'\n @ ./packages/mars-theme/src/components/nav.js 1:45-101\n @ ./packages/mars-theme/src/components/header.js\n @ ./packages/mars-theme/src/components/index.js\n @ ./packages/mars-theme/src/index.js\n @ ./build/bundling/entry-points/thehearld/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts",
-    "(webpack)-hot-middleware/client.js\nModule build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\node_modules\\webpack-hot-middleware\\client.js'\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/thehearld/client.ts thehearld[0]"
-  ],
+  "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "d22e2b4d179f2322bbd1",
+  "hash": "b2bf6d45cc46994c7db8",
   "publicPath": "/static/",
   "outputPath": "C:\\Users\\Mehluli\\Documents\\GitHub\\the-herald\\build\\static",
   "assetsByChunkName": {
     "list": "list.module.js",
-    "thehearld": [
-      "thehearld.module.js",
-      "thehearld.e92a1ae744aa955637aa.hot-update.js"
-    ]
+    "thehearld": "thehearld.module.js"
   },
   "assets": [
-    {
-      "name": "e92a1ae744aa955637aa.hot-update.json",
-      "size": 51,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
     {
       "name": "list.module.js",
       "size": 51167,
@@ -60,23 +23,8 @@
       "emitted": false
     },
     {
-      "name": "thehearld.e92a1ae744aa955637aa.hot-update.js",
-      "size": 20985,
-      "chunks": [
-        "thehearld"
-      ],
-      "chunkNames": [
-        "thehearld"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
       "name": "thehearld.module.js",
-      "size": 274019,
+      "size": 6480376,
       "chunks": [
         "thehearld"
       ],
@@ -94,8 +42,7 @@
         "thehearld"
       ],
       "assets": [
-        "thehearld.module.js",
-        "thehearld.e92a1ae744aa955637aa.hot-update.js"
+        "thehearld.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -107,8 +54,7 @@
         "thehearld"
       ],
       "assets": [
-        "thehearld.module.js",
-        "thehearld.e92a1ae744aa955637aa.hot-update.js"
+        "thehearld.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -127,7 +73,7 @@
   "chunks": [
     {
       "id": "list",
-      "rendered": false,
+      "rendered": true,
       "initial": false,
       "entry": false,
       "size": 33285,
@@ -153,15 +99,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 137580,
+      "size": 1674285,
       "names": [
         "thehearld"
       ],
       "files": [
-        "thehearld.module.js",
-        "thehearld.e92a1ae744aa955637aa.hot-update.js"
+        "thehearld.module.js"
       ],
-      "hash": "ad4cd92fa5317203114b",
+      "hash": "8772156b764aca0d1710",
       "siblings": [],
       "parents": [],
       "children": [
