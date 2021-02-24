@@ -13,8 +13,7 @@
   "scripts": {
     "dev": "frontity dev",
     "build": "frontity build",
-    "serve": "frontity serve",
-    "remove-node": "rm -rf node_modules && rm -rf package-lock.json && rm -rf yarn-error.log && rm -rf yarn"
+    "serve": "frontity serve"
   },
   "prettier": {},
   "dependencies": {
