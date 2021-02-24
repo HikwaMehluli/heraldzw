@@ -2,7 +2,8 @@ const settings = {
 	"name": "thehearld",
 	"state": {
 		"frontity": {
-			"url": "https://www.herald.co.zw/",
+			// "url": "https://www.herald.co.zw/",
+			"url": "https://hearldzw.vercel.app/",
 			"title": "The Herald",
 			"description": "Zimbabwe's largest daily newspaper"
 		}
@@ -32,7 +33,7 @@ const settings = {
 			"name": "@frontity/wp-source",
 			"state": {
 				"source": {
-					"url": "https://www.herald.co.zw/"
+					"url": "https://www.herald.co.zw"
 				}
 			}
 		},
