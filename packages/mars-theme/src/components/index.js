@@ -60,6 +60,7 @@ const globalStyles = css`
 	// 	--transition: all .5s;
 	// }
 
+	// Hearld 
 	:root {
 		--black: #fafafa;
 		--white: black;
@@ -68,6 +69,16 @@ const globalStyles = css`
 		--dark-grey: #20232a;
 		--transition: all .5s;
 	}
+
+	// Daily News
+	// :root {
+	// 	--black: #fafafa;
+	// 	--white: black;
+	// 	--red: #1030e3;
+	// 	--grey: #f3f3f3;
+	// 	--dark-grey: #20232a;
+	// 	--transition: all .5s;
+	// }
 
 	body {
 		margin: 0;
