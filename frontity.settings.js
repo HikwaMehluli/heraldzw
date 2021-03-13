@@ -14,7 +14,7 @@ const settings = {
 			"state": {
 				"theme": {
 					"menu": [
-						["Home", "/category/articles/top-stories/"],
+						["Home", "/"],
 						["Africa", "/category/articles/africa/"],
 						["Arts & Culture", "/category/articles/entertainment/"],
 						["Business", "/category/articles/business/"],
