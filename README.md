@@ -1,4 +1,4 @@
-# Daily News Paper 
+# The Hearld ZW -  News Paper 
 
 This project is a proof of concept of a fast loading website app bootstrapped with [Frontity](https://frontity.org/).
 
