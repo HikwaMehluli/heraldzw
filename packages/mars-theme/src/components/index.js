@@ -7,9 +7,8 @@ import Loading from "./loading";
 import Title from "./title";
 import PageError from "./page-error";
 
-/**
- * Theme is the root React component of our theme. The one we will export in roots.
- */
+
+/* Theme is the root React component of our theme. The one we will export in roots. */
 const Theme = ({ state }) => {
 	// Get information about the current URL.
 	const data = state.source.get(state.router.link);
@@ -50,40 +49,18 @@ const Theme = ({ state }) => {
 export default connect(Theme);
 
 const globalStyles = css`
-
-	// :root {
-	// 	--black: black;
-	// 	--white: #fafafa;
-	// 	--red: #F51827;
-	// 	--grey: #f3f3f3;
-	// 	--dark-grey: #20232a;
-	// 	--transition: all .5s;
-	// }
-
-	// Hearld 
 	:root {
-		--black: #fafafa;
-		--white: black;
+		--black: black;
+		--white: #fafafa;
 		--red: #F51827;
 		--grey: #f3f3f3;
 		--dark-grey: #20232a;
 		--transition: all .5s;
 	}
 
-	// Daily News
-	// :root {
-	// 	--black: #fafafa;
-	// 	--white: black;
-	// 	--red: #1030e3;
-	// 	--grey: #f3f3f3;
-	// 	--dark-grey: #20232a;
-	// 	--transition: all .5s;
-	// }
-
 	body {
 		margin: 0;
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		// background-color: var(--white);
 		background-color: var(--dark-grey);
 	}
 
@@ -98,14 +75,12 @@ const HeadContainer = styled.div`
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	// background-color: var(--grey);
-	background-color: var(--white);
+	background-color: var(--black);
 `;
 
 const Main = styled.div`
 	display: flex;
 	justify-content: center;
-	// background-color: var(--white);
 	background-color: var(--dark-grey);
 `;
 

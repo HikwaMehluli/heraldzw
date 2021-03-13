@@ -60,17 +60,16 @@ const Title = styled.h1`
 	transition: var(--transition);
 
 	&:hover {
-		color: var(--black);
+		color: var(--white);
 	}
 `;
 
 const AuthorName = styled.span`
-	color: var(--black);
+	color: var(--white);
 	font-size: 0.9em;
 	transition: var(--transition);
 
 	&:hover {
-		color: #F51827;
 		color: var(--red);
 	}
 `;
@@ -80,11 +79,11 @@ const StyledLink = styled(Link)`
 `;
 
 const PublishDate = styled.span`
-	color: var(--black);
+	color: var(--white);
 	font-size: 0.9em;
 `;
 
 const Excerpt = styled.div`
 	line-height: 1.6em;
-	color: var(--black);
+	color: var(--white);
 `;

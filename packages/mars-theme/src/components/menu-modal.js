@@ -25,7 +25,7 @@ const MenuModal = ({ state }) => {
 };
 
 const MenuOverlay = styled.div`
-	background-color: var(--white);
+	background-color: var(--black);
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden auto;
@@ -41,8 +41,7 @@ const MenuContent = styled.div`
 
 const MenuLink = styled(Link)`
 	width: 100%;
-        // color: var(--white);
-        color: var(--black);
+    color: var(--white);
 	display: inline-block;
 	outline: 0;
 	font-size: 20px;
@@ -52,7 +51,7 @@ const MenuLink = styled(Link)`
 	&:hover,
 	&:focus {
 		background-color: var(--red);
-                color: var(--black);
+        color: var(--white);
 	}
 
 	/* styles for active link */

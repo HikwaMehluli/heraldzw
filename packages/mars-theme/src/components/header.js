@@ -40,7 +40,7 @@ const Title = styled.h1`
 	transition: var(--transition);
 
 	&:hover {
-		color: var(--black);
+		color: var(--white);
 	}
 
 	@media screen and (max-width: 560px) {
@@ -49,7 +49,7 @@ const Title = styled.h1`
 `;
 
 const Description = styled.h4`
-	color: var(--black);
+	color: var(--white);
 	margin: 0;
 	font-style: oblique;
 	font-weight: 500;

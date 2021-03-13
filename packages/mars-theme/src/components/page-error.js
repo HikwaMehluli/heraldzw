@@ -49,6 +49,6 @@ const Title = styled.h2`
 
 const Description = styled.div`
 	line-height: 1.6em;
-	color: #F51827;
+	color: var(--red);
 	margin: 24px 0;
 `;

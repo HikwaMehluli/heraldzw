@@ -46,8 +46,7 @@ export default connect(Pagination);
 
 const Text = styled.em`
 	background-color: var(--red);
-	// color: var(--white);
-	color: var(--black);
+	color: var(--white);
 	cursor: pointer;
 	display: inline-block;
 	font-weight: 400;
@@ -57,6 +56,5 @@ const Text = styled.em`
 
 	&:hover {
 		background-color: var(--black);
-		color: var(--white);
 	}
 `;
