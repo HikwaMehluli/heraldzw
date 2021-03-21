@@ -1,4 +1,4 @@
-# The Hearld ZW -  News Paper 
+# The Herald ZW -  News Paper 
 
 This project is a proof of concept of a fast loading web app bootstrapped with [Frontity](https://frontity.org/).
 
