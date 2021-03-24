@@ -45,3 +45,7 @@
 [0324/100848.266:ERROR:registration_protocol_win.cc(102)] CreateFile: The system cannot find the file specified. (0x2)
 [0324/102221.782:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: The pipe has been ended. (0x6D)
 [0324/102221.786:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\settings.dat: Access is denied. (0x5)
+[0324/104212.325:ERROR:registration_protocol_win.cc(102)] CreateFile: The system cannot find the file specified. (0x2)
+[0324/104213.439:ERROR:registration_protocol_win.cc(102)] CreateFile: The system cannot find the file specified. (0x2)
+[0324/115618.393:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0324/115618.396:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\settings.dat: Access is denied. (0x5)

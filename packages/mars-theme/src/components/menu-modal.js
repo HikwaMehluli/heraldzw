@@ -28,7 +28,8 @@ const MenuOverlay = styled.div`
 	background-color: var(--black);
 	width: 100vw;
 	height: 100vh;
-	overflow: hidden auto;
+	// overflow: hidden auto;
+	overflow-y: auto;
 	position: fixed;
 	z-index: 2;
 	top: 0;
@@ -41,7 +42,7 @@ const MenuContent = styled.div`
 
 const MenuLink = styled(Link)`
 	width: 100%;
-    color: var(--white);
+    color: var(--white) !important;
 	display: inline-block;
 	outline: 0;
 	font-size: 20px;
@@ -50,14 +51,14 @@ const MenuLink = styled(Link)`
 
 	&:hover,
 	&:focus {
-		background-color: var(--red);
-        color: var(--white);
+		background-color: var(--red) !important;
+        color: var(--white) !important;
 	}
 
 	/* styles for active link */
 	&[aria-current="page"] {
-		color: var(--red);
-		font-weight: bold;
+		background-color: var(--red) !important;
+        color: var(--white) !important;
 	}
 `;
 
