@@ -9,3 +9,4 @@ The theme is an edited version of Frontity's Mars Theme, if you want to create y
 - Read the news without the bloated advertisements and comments.
 
 Made with ❤️ by [thatAfro](https://thatafro.netlify.app/)
+
