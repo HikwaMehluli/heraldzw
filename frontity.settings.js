@@ -13,7 +13,7 @@ const settings = {
 			"state": {
 				"theme": {
 					"menu": [
-						["Home", "/category/articles/national/"],
+						["Home", "/"],
 						["Africa", "/category/articles/africa/"],
 						["Arts & Culture", "/category/articles/entertainment/"],
 						["Business", "/category/articles/business/"],
